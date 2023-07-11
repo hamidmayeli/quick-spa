@@ -18,7 +18,7 @@ function App() {
           <li>Tailwind</li>
           <li>Cypress (e2e and component) + Code Coverage Report</li>
           <li>JSON Server for fake API</li>
-          <li className='text-gray-500'>PWA - Not Yet</li>
+          <li>PWA - (public/web.config is for IIS hosting, feel free to remove it.)</li>
         </ul>
 
         <Link to="/second" className='text-blue-500'>Visit the second page.</Link>
