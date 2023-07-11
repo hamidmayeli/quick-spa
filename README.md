@@ -4,3 +4,4 @@ Official Docs:
 - [React Routing](https://reactrouter.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Cypress](https://www.cypress.io/)
+- [JSON Server](https://github.com/typicode/json-server)
