@@ -8,9 +8,6 @@ export default function Header({
   themeChanged: (isDark: boolean) => void,
 }) {
   const toggle = (reverseCondition?: boolean) => {
-    console.log({
-        reverseCondition
-    });
     if (!reverseCondition) {
       themeChanged(!isDark);
     }

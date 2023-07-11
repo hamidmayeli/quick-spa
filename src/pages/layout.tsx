@@ -5,9 +5,11 @@ import { Outlet } from "react-router-dom";
 
 export default function RootLayout() {
     const [isDark, setIsDark] = useState(false);
-
+    
+    document.body.className = isDark ? "dark" : "";
+    
     return (
-        <div className={`${isDark ? "dark" : ""} bg-slate-50 dark:bg-gray-950`}>
+        <div className="bg-slate-50 dark:bg-gray-950">
             <Header
                 themeChanged={setIsDark}
                 isDark={isDark}
