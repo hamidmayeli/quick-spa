@@ -1,34 +1,32 @@
 import { useState } from 'react'
-import reactLogo from 'assets/react.svg'
-import viteLogo from '/vite.svg'
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <h1 className='text-center font-bold text-5xl mb-20'>Quick SPA</h1>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <Link to="/second">To Second Page</Link>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <p>This is a complete set of tools ready for development.</p>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          It contains the following features.
         </p>
+        <ul className='list-decimal list-inside p-2'>
+          <li>Vite + React</li>
+          <li>Typescript</li>
+          <li>Tailwind</li>
+          <li>Cypress (e2e and component) + Code Coverage Report</li>
+          <li>JSON Server for fake API</li>
+          <li className='text-gray-500'>PWA - Not Yet</li>
+        </ul>
+
+        <Link to="/second" className='text-blue-500'>Visit the second page.</Link>
+
+        <div>
+          <button type='button' className='rounded-full p-4 border mt-10 mx-auto' onClick={() => setCount(count + 1)}>Counter: {count}</button>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
