@@ -16,7 +16,7 @@ export default defineConfig({
       include: 'src/*',
       exclude: ['node_modules'],
       extension: [ '.js', '.ts', '.jsx', '.tsx',  ],
-      requireEnv: true,
+      requireEnv: !process.env.CYPRESS,
       checkProd: true,
     }),
     VitePWA({ 
