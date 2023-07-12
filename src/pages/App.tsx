@@ -1,3 +1,4 @@
+import Logo from 'assets/logo';
 import { useState } from 'react'
 import { Link } from "react-router-dom";
 
@@ -6,6 +7,9 @@ function App() {
 
   return (
     <>
+    <div className='flex justify-center'>
+      <Logo className='fill-black dark:fill-white w-12 h-12' />
+    </div>
       <h1 className='text-center font-bold text-5xl mb-20'>Quick SPA</h1>
       <div>
         <p>This is a complete set of tools ready for development.</p>
