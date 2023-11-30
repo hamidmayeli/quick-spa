@@ -1,0 +1,36 @@
+name: Client Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: 
+      - main
+  
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      DOCKER_BUILDKIT: 1
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    
+    - name: Build
+      run: docker build -o ./artifacts/test-results --target test-result .
+
+    - name: Publish Test Results
+      uses: actions/upload-artifact@v3.1.1
+      with:
+        name: TestReport
+        path: ./artifacts/test-results/
+
+    # - name: Build
+    #   if: github.ref == 'refs/heads/main'
+    #   run: docker build -t image . && docker save image -o artifacts\image.tar
