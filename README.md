@@ -9,6 +9,8 @@ It contains the following features.
 - Cypress (e2e and component) + Code Coverage Report
 - JSON Server for fake API
 - PWA - (public/web.config is for IIS hosting, feel free to remove it.)
+- Dockerized
+- CI pipeline
 
 ### Official Docs:
 - [React](https://react.dev/)
@@ -17,3 +19,5 @@ It contains the following features.
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Cypress](https://www.cypress.io/)
 - [JSON Server](https://github.com/typicode/json-server)
+- [Docker](https://docs.docker.com/)
+- [GitHub Actions](https://docs.github.com/en/actions)
