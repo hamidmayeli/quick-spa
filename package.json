@@ -39,7 +39,7 @@
     "typescript": "^5.3.3",
     "vite": "^5.1.2",
     "vite-plugin-istanbul": "^5.0.0",
-    "vite-plugin-pwa": "^0.18.1",
+    "vite-plugin-pwa": "^0.19.3",
     "vite-tsconfig-paths": "^4.2.3"
   }
 }
