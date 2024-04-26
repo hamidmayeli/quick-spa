@@ -14,14 +14,14 @@
     "test-component:headless": "cypress run --component"
   },
   "dependencies": {
-    "react": "^18.2.0",
+    "react": "^18.3.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.12.34",
     "@faker-js/faker": "^8.3.1",
-    "@types/react": "^18.2.77",
+    "@types/react": "^18.3.0",
     "@types/react-dom": "^18.2.25",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
