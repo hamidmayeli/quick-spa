@@ -8,7 +8,7 @@ function createUser(){
     return {
             id: faker.number.int(),
             name: faker.internet.displayName(),
-            avatar: faker.number.int({min: 1, max: 5}) === 3 ? null : faker.internet.avatar(),
+            avatar: faker.number.int({min: 1, max: 5}) === 3 ? null : faker.image.avatar(),
         };
 }
 
