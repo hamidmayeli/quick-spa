@@ -1,9 +1,9 @@
-import { lazy, Suspense } from 'react';
-import { createBrowserRouter } from 'react-router-dom';
-import RootLayout from 'pages/layout';
+import { lazy, Suspense } from "react";
+import { createBrowserRouter } from "react-router-dom";
+import RootLayout from "pages/layout";
 
-const App = lazy(() => import('pages/App'));
-const SecondPage = lazy(() => import('pages/SecondPage'));
+const App = lazy(() => import("pages/App"));
+const SecondPage = lazy(() => import("pages/SecondPage"));
 
 const router = createBrowserRouter([
     {
