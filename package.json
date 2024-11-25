@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "concurrently --kill-others \"npx json-server -w json-server/data.cjs -r json-server/routing.json -m json-server/middleware.cjs --host 127.0.0.1 -p 4000\" \"vite --host\"",
     "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint src --max-warnings 0",
     "preview": "vite preview",
     "test-e2e": "start-server-and-test dev \"http://localhost:5173|http://127.0.0.1:4000\" \"cypress open --e2e\"",
     "test-e2e:headless": "start-server-and-test dev \"http://localhost:5173|http://127.0.0.1:4000\" \"cypress run --e2e\"",
