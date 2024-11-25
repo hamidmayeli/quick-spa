@@ -1,9 +1,9 @@
-import Logo from 'assets/logo';
-import { useState } from 'react'
+import Logo from "assets/logo";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -32,7 +32,7 @@ function App() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
