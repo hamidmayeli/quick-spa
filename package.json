@@ -16,30 +16,30 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.0.1"
+    "react-router-dom": "^7.0.2"
   },
   "devDependencies": {
-    "@cypress/code-coverage": "^3.13.7",
-    "@faker-js/faker": "^9.2.0",
+    "@cypress/code-coverage": "^3.13.8",
+    "@faker-js/faker": "^9.3.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "@typescript-eslint/eslint-plugin": "^8.15.0",
-    "@typescript-eslint/parser": "^8.15.0",
-    "@vitejs/plugin-react": "^4.3.3",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
     "concurrently": "^9.1.0",
     "cypress": "^13.16.0",
-    "eslint": "^9.15.0",
+    "eslint": "^9.16.0",
     "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.14",
+    "eslint-plugin-react-refresh": "^0.4.16",
     "json-server": "^0.17.4",
     "postcss": "^8.4.49",
     "start-server-and-test": "^2.0.8",
-    "tailwindcss": "^3.4.15",
+    "tailwindcss": "^3.4.16",
     "typescript": "^5.7.2",
-    "vite": "^5.4.11",
+    "vite": "^6.0.2",
     "vite-plugin-istanbul": "^6.0.2",
-    "vite-plugin-pwa": "^0.21.0",
+    "vite-plugin-pwa": "^0.21.1",
     "vite-tsconfig-paths": "^5.1.3"
   }
 }
