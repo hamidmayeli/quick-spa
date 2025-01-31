@@ -26,7 +26,7 @@ jobs:
       run: docker build -o ./artifacts/test-results --target test-result .
 
     - name: Publish Test Results
-      uses: actions/upload-artifact@v3.1.1
+      uses: actions/upload-artifact@v4
       with:
         name: TestReport
         path: ./artifacts/test-results/
