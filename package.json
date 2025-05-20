@@ -19,9 +19,9 @@
     "react-router-dom": "^7.6.0"
   },
   "devDependencies": {
-    "@cypress/code-coverage": "^3.14.2",
+    "@cypress/code-coverage": "^3.14.3",
     "@faker-js/faker": "^9.8.0",
-    "@tailwindcss/postcss": "^4.1.6",
+    "@tailwindcss/postcss": "^4.1.7",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
@@ -29,7 +29,7 @@
     "@vitejs/plugin-react": "^4.4.1",
     "concurrently": "^9.1.2",
     "cypress": "^14.3.3",
-    "eslint": "^9.26.0",
+    "eslint": "^9.27.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "json-server": "^0.17.4",
