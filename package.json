@@ -16,17 +16,17 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.0"
+    "react-router-dom": "^7.6.1"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.14.3",
     "@faker-js/faker": "^9.8.0",
     "@tailwindcss/postcss": "^4.1.7",
-    "@types/react": "^19.1.5",
+    "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
     "@typescript-eslint/parser": "^8.32.1",
-    "@vitejs/plugin-react": "^4.4.1",
+    "@vitejs/plugin-react": "^4.5.0",
     "concurrently": "^9.1.2",
     "cypress": "^14.4.0",
     "eslint": "^9.27.0",
